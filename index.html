@@ -10,6 +10,10 @@
         function onclickear() {
             alert("Quién te crees? El carni?")
         }
+        function play() {
+            const audio = document.getElementById("miAudio");
+            audio.play();
+        }
     </script>
     <style>
         #idMostrar {
@@ -24,6 +28,8 @@
     </nav>
     <main>
         <h1>Bombardino Crocodilo</h1>
+        <audio id="miAudio" src="Download.mp4"></audio>
+        <button onclick="play()">Play</button>
         <p>Bombardino Crocodilo es uno de los personajes más poderosos del universo. 
             Es una mezcla entre cocodrilo y bombardero militar, con misiles en las costillas y hélices en la cabeza. 
             Su función es clara: destruir todo lo que se le ponga enfrente, en especial si son niños en Gaza o Palestina. 
