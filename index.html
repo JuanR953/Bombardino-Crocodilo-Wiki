@@ -6,6 +6,39 @@
     <title>Bombardino Crocodilo - Frikipedia</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png">
     <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+    display: flex;
+}
+nav > h2 {
+    margin: 15px;
+    font-family: Arial;
+}
+header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+header > button {
+    height: 30px;
+    margin: 15px;
+}
+main {
+    margin: 150px;
+    margin-top: 0px;
+    font-size: 120%;
+}
+main > h1 {
+    border-bottom: 1px solid grey;
+}
+main > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+    </style>
     <script>
         function onclickear() {
             alert('Tu mensaje no fue enviado a la comunidad. Gracias.')
@@ -39,11 +72,12 @@
                 dispara con misiles que tienen en sus alas. Juntos, los dos son imparables, matando a todos los niños
                 de Gaza.</p>
         <article>
-            <h2>Bombardino Crocodilo</h2>
+            <h1>Bombardino Crocodilo</h1>
             <img src="https://i1.sndcdn.com/artworks-4fPGk176hMQgdghK-zFMj5Q-t500x500.jpg" alt="imagenBombo">
-            <h3>Datos personales</h3>
+            <h3 style="background-color: gold; color: black;width: 600px; display: flex; justify-content: center; padding: 5px; margin: 35px; margin-bottom: 0px; border-radius: 10px;">Datos Personales</h3>
+
             <div class="dividir" style="display: flex;">
-        <div>
+        <div style="font-weight: bold;">
             <p>Nombre Completo: </p>
             <p>Apodos: </p>
             <p>Nacimiento: </p>
@@ -54,7 +88,7 @@
             <p>Familia: </p>
             <p>Trabajo: </p>
         </div>
-        <div>
+        <div style="margin: 15px; margin-top: 0px; ">
             <p>Sir Bombardinus Crocodilus III</p>
             <p>El fottuto alligatore, el Bombardero de Palestina, la Cabra, el D10S, CrokkoNukes, l'Inferno Verde</p>
             <p>Desconocido, aproximadamente en la creación del universo.</p>
